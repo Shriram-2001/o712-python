@@ -15,3 +15,17 @@ rand-question-v3 = "rand_question_v3.cli:main"
 [build-system]
 requires = ["uv_build>=0.12.7,<0.13.0"]
 build-backend = "uv_build"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rand-question-v3"
+version = "0.1.0"
+dependencies = [
+    "streamlit"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
