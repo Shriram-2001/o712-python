@@ -1,0 +1,17 @@
+[project]
+name = "rand-question-v3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shriram Ramesh Vijayameenakshi", email = "rameshvs@mcmaster.ca" }
+]
+requires-python = ">=3.13"
+dependencies = ["streamlit>=1.38"]
+
+[project.scripts]
+rand-question-v3 = "rand_question_v3.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"

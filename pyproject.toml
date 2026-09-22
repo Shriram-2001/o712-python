@@ -1,0 +1,10 @@
+[project]
+name = "o712-python"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    {name = "Shriram Ramesh Vijayameenakshi", email = "rameshvs@mcmaster.ca"}
+]
+requires-python = ">=3.13"
+dependencies = []
